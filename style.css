@@ -1,0 +1,53 @@
+@import url("component/banner.css");
+@import url("component/button.css");
+@import url("component/slider.css");
+@import url("component/container.css");
+@import url("component/card.css");
+@import url("component/endpage.css");
+
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+
+body{
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+
+h1{
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 65px
+
+}
+
+h2{
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 25px;
+	margin-top: 70px;
+}
+
+h3{
+	font-family: helvetica;
+}
+
+h4{
+	font-family: 'Ubuntu Mono' monospace;
+}
+
+.total{
+	width: 1000px;
+	margin: 80px auto;
+	text-align: center;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 720px) {
+	.total{
+	width: 500px;
+	margin: 40px auto;
+	text-align: center;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+}

@@ -1,0 +1,91 @@
+.slider-holder{
+	width: 600px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 70px;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.8)
+}
+
+.image-holder{
+	width: 600px;
+	background-color: white;
+	height: 370px;
+	clear: both;
+	position: relative;
+
+	transition: bottom 2s;
+}
+
+.image-holder img {
+	width: 600px;
+	transition: bottom 2s;
+	animation: linear infinite;
+}
+
+.slider-image{
+	float: left;
+	margin: 0px;
+	padding: 1px;
+	position: relative;
+
+}
+
+#slider-image-1:target ~ .image-holder
+{
+    bottom: 0px;
+}
+
+#slider-image-2:target ~ .image-holder
+{
+    bottom: 410px;
+}
+
+#slider-image-3:target ~ .image-holder
+{
+    bottom: 820px;
+}
+
+#slider-image-4:target ~ .image-holder
+{
+	bottom: 1220px;
+}
+
+.button-holder
+{
+    position: relative;
+    top: -8px;
+}
+
+.slider-change
+{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.shirts{
+	width: 600px;
+	transition: bottom 2s;
+}
+
+.shirts{
+	width: 300px;
+	background-color: white;
+	height: 370px;
+	clear: both;
+	position: center;
+}
+
+.shirts img{
+	width: 600px;
+	text-align: center;
+	padding-left: 50px;
+}
+
+
